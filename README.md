@@ -8,14 +8,15 @@ If you use this code or data please cite:
 Leitner, C.;Jarolim, R.;Konrad, A.;Kruse, A.;Tilp, M.;Baumgartner, C. (2020). "Automatic Tracking of the Muscle Tendon Junction in Healthy and Impaired Subjects using Deep Learning". 42nd Conferences of the IEEE Engineering in Medicine and Biology Society. Montreal, Canada.
 
 ```
-@article{LeitnerJarolim2020,
+@inproceedings{LeitnerJarolim2020,
    title={Automatic Tracking of the Muscle Tendon Junction in Healthy and Impaired Subjects using Deep Learning},
    author = {Christoph Leitner and Robert Jarolim and Andreas Konrad and Annika Kruse and Markus Tilp and Christian Baumgartner},
-   journal={42nd Conferences of the IEEE Engineering in Medicine and Biology Society},
-   year={2020}}
+   journal={Proceedings of the 42nd Conferences of the IEEE Engineering in Medicine and Biology Society},
+   year={2020}
+   publisher={IEEE},
+   location= {Montreal},
+}
 ```
-
-
 
 ## License
 
