@@ -5,8 +5,6 @@ Automatic muscle tendon junction tracking using deep learning
 
 If you use this code or data please cite:
 
-Leitner, C.;Jarolim, R.;Konrad, A.;Kruse, A.;Tilp, M.;Baumgartner, C. (2020). "Automatic Tracking of the Muscle Tendon Junction in Healthy and Impaired Subjects using Deep Learning". 42nd Conferences of the IEEE Engineering in Medicine and Biology Society. Montreal, Canada.
-
 ```
 @inproceedings{LeitnerJarolim2020,
    title={Automatic Tracking of the Muscle Tendon Junction in Healthy and Impaired Subjects using Deep Learning},
