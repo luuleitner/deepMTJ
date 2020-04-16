@@ -19,5 +19,5 @@ If you use this code or data please cite:
 
 ## License
 
-This project is licensed under the GNU General Public License v3.0 - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the GNU General Public License v3.0 - see the [https://github.com/luuleitner/deepMTJ/blob/master/LICENSE](LICENSE) file for details
 
