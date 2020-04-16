@@ -10,7 +10,7 @@ If you use this code or data please cite:
    title={Automatic Tracking of the Muscle Tendon Junction in Healthy and Impaired Subjects using Deep Learning},
    author={Christoph Leitner and Robert Jarolim and Andreas Konrad and Annika Kruse and Markus Tilp and Christian Baumgartner},
    booktitle={in Proc. 42nd Conferences of the IEEE Engineering in Medicine and Biology Society},
-   venue={Montreal, Canada},
+   venue={Montreal,Canada},
    publisher={IEEE},
    month=july,
    year={2020}  
