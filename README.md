@@ -1,4 +1,6 @@
-# deepMTJ
+<div class="text-blue mb-2">
+  # deepMTJ
+</div>
 Automatic muscle tendon junction tracking using deep learning
 
 ## References
