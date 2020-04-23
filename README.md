@@ -1,7 +1,7 @@
 # deepMTJ
 Automatic muscle tendon junction tracking using deep learning
 
-> *"do, ut des"*
+## > *"do, ut des"*
 
 ...if we could help you with our code&data please cite our work:
 
