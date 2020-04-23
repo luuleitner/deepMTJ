@@ -1,9 +1,9 @@
 # deepMTJ
 Automatic muscle tendon junction tracking using deep learning
 
-## *"do, ut des"*
+## *"do, ut des" (lat.)*
 
-***...if we could assist you with this code please cite our work***
+***...if we could assist you with this code please cite our work:***
 
 ```
 @inproceedings{LeitnerJarolim2020,
