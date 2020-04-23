@@ -6,7 +6,7 @@ Automatic muscle tendon junction tracking using deep learning
 ***...if we could assist you with this code please cite our work:***
 
 
-<p style="font-family: times, serif; font-size:11pt; font-style:italic">
+<p style="font-size:16pt; font-style:italic">
     Why did we use these specific parameters during the calculation of the fingerprints?
 </p>
 
