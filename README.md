@@ -1,9 +1,7 @@
 # deepMTJ
 Automatic muscle tendon junction tracking using deep learning
 
-## References
-
-If you use this code or data please cite:
+## ...if you use this code and data please cite our work...
 
 ```
 @inproceedings{LeitnerJarolim2020,
