@@ -5,11 +5,6 @@ Automatic muscle tendon junction tracking using deep learning
 
 ***...if we could assist you with this code please cite our work:***
 
-
-<p style="font-size:16pt; font-style:italic">
-    Why did we use these specific parameters during the calculation of the fingerprints?
-</p>
-
 ```
 @inproceedings{LeitnerJarolim2020,
    title={Automatic Tracking of the Muscle Tendon Junction in Healthy and Impaired Subjects using Deep Learning},
