@@ -19,7 +19,7 @@ Automatic muscle tendon junction tracking using deep learning
 
 ## Getting Started
 
-This is one possible way to run [#deepMTJ](https://github.com/luuleitner/deepMTJ) on your computer. We have used the [Anaconda](https://www.anaconda.com/) package manager and the [Pycharm](https://www.jetbrains.com/pycharm/) programming environment to develop, train and run our network:
+This is one possible way to run [#deepMTJ](https://github.com/luuleitner/deepMTJ) on your computer. We have used the [Anaconda](https://www.anaconda.com/) package manager and the [Pycharm](https://www.jetbrains.com/pycharm/) programming environment to develop, train and run our network on Windows 10.
 
 **Setup Windows 10:**
 
@@ -27,7 +27,7 @@ This is one possible way to run [#deepMTJ](https://github.com/luuleitner/deepMTJ
 2. Install [Pycharm](https://www.jetbrains.com/pycharm/)
 
 
-*tested version for #deepMTJ
+**tested version for #deepMTJ*
 
 ## License
 
