@@ -23,7 +23,7 @@ This is one possible way to run [#deepMTJ](https://github.com/luuleitner/deepMTJ
 
 **Setup Windows 10:**
 
-1. Install [Anaconda](https://www.anaconda.com/) (V1.9.12*)
+1. Install [Anaconda](https://www.anaconda.com/) (v1.9.12*) for Python v3.7
 2. Install [Pycharm](https://www.jetbrains.com/pycharm/)
 
 
