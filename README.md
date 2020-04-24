@@ -24,7 +24,12 @@ This is one possible way to run [#deepMTJ](https://github.com/luuleitner/deepMTJ
 **Setup Windows 10:**
 
 1. Install [Anaconda](https://www.anaconda.com/) (v1.9.12*) for Python v3.7
-2. Create a `<deepMTJ>` virtual environment in Anaconda and install all necessary libraries using the following code in the terminal window:
+2. Create the `deepMTJ` virtual environment in Anaconda and install all necessary libraries using the following code in the terminal window:
+
+```
+conda create --name deepMTJ python=3.6 --file requirements.txt
+```
+
 3. Install [Pycharm](https://www.jetbrains.com/pycharm/)
 
 
