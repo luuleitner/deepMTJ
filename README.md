@@ -33,7 +33,6 @@ conda create --name deepMTJ python=3.6 --file requirements.txt
 3. Install [Pycharm](https://www.jetbrains.com/pycharm/)
 
 
-
 **tested version for #deepMTJ*
 
 ## License
