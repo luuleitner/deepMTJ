@@ -29,7 +29,7 @@ conda create --name deepMTJ python=3.6 --file requirements.txt
 ```
 
 3. Install [Pycharm](https://www.jetbrains.com/pycharm/)
-4. Clone this Github repository using [https://github.com/luuleitner/deepMTJ](https://github.com/luuleitner/deepMTJ)
+4. Clone this GitHub repository to your local machine using [https://github.com/luuleitner/deepMTJ](https://github.com/luuleitner/deepMTJ)
 
 **tested version for #deepMTJ*
 
