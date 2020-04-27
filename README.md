@@ -1,3 +1,10 @@
+[![Open Source](https://badges.frapsoft.com/os/v1/open-source.svg?v=103)](https://opensource.org/)
+[![GitHub stars](https://img.shields.io/github/stars/tterb/playmusic.svg?style=social&label=Star)](https://github.com/JonSnow/MyBadges)
+[![GitHub watchers](https://img.shields.io/github/watchers/tterb/playmusic.svg?style=social&label=Watch)](https://github.com/JonSnow/MyBadges)
+[![GitHub forks](https://img.shields.io/github/forks/tterb/playmusic.svg?style=social&label=Fork)](https://github.com/JonSnow/MyBadges)
+[![Twitter Follow](https://img.shields.io/twitter/follow/bstevensondev.svg?style=social)](https://twitter.com/luuleitner)  
+
+
 # #deepMTJ
 Automatic muscle tendon junction tracking using deep learning
 
@@ -34,6 +41,7 @@ conda create --name deepMTJ python=3.6 --file requirements.txt
 **tested version for #deepMTJ*
 
 ## License
+[![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
 
 This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](https://github.com/luuleitner/deepMTJ/blob/master/LICENSE) file for details
 
