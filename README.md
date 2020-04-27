@@ -1,7 +1,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/luuleitner/deepMTJ?label=Stars&style=social)](https://github.com/luuleitner/deepMTJ)
 [![GitHub forks](https://img.shields.io/github/forks/luuleitner/deepMTJ?label=Fork&style=social)](https://github.com/luuleitner/deepMTJ)
 <br>
-[![License: LGPL v3](https://img.shields.io/badge/License-LGPL%20v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)
+[![License: GPLv3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses)
 ![GitHub contributors](https://img.shields.io/badge/Contributions-Welcome-brightgreen)
 [![Twitter Follow](https://img.shields.io/twitter/follow/luuleitner?style=social)](https://twitter.com/luuleitner)
 
