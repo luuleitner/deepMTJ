@@ -2,7 +2,7 @@
 [![GitHub stars](https://img.shields.io/github/stars/tterb/playmusic.svg?style=social&label=Star)](https://github.com/JonSnow/MyBadges)
 [![GitHub watchers](https://img.shields.io/github/watchers/tterb/playmusic.svg?style=social&label=Watch)](https://github.com/JonSnow/MyBadges)
 [![GitHub forks](https://img.shields.io/github/forks/tterb/playmusic.svg?style=social&label=Fork)](https://github.com/JonSnow/MyBadges)
-[![Twitter Follow](https://img.shields.io/twitter/follow/bstevensondev.svg?style=social)](https://twitter.com/luuleitner)  
+[![Twitter Follow](https://img.shields.io/twitter/follow/luuleitner.svg?style=social)](https://twitter.com/luuleitner)  
 
 
 # #deepMTJ
