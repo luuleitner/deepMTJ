@@ -1,8 +1,8 @@
 [![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
 [![GitHub stars](https://img.shields.io/github/stars/tterb/playmusic.svg?style=social&label=Star)](https://github.com/JonSnow/MyBadges)
 [![GitHub watchers](https://img.shields.io/github/watchers/tterb/playmusic.svg?style=social&label=Watch)](https://github.com/JonSnow/MyBadges)
-<br>
 [![GitHub forks](https://img.shields.io/github/forks/tterb/playmusic.svg?style=social&label=Fork)](https://github.com/JonSnow/MyBadges)
+<br>
 [![GitHub contributors](https://img.shields.io/github/contributors/cdnjs/cdnjs.svg?style=flat)]()  
 [![Twitter Follow](https://img.shields.io/twitter/follow/luuleitner.svg?style=social)](https://twitter.com/luuleitner)  
 
