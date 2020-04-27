@@ -1,6 +1,6 @@
 """
 	#deepMTJ
-	an open source software tool made for biomechanical researchers
+	an open-source software tool made for biomechanical researchers
 
 	Copyright (C) 2020 by the authors: Jarolim Robert (University of Graz), <robert.jarolim@uni-graz.at> and
 	Leitner Christoph (Graz University of Technology), <christoph.leitner@tugraz.at>.
