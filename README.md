@@ -6,7 +6,7 @@
 [![Twitter Follow](https://img.shields.io/twitter/follow/luuleitner?label=Follow&style=social)](https://twitter.com/luuleitner)
 
 <p align="left">
-<img src="https://github.com/luuleitner/deepMTJ/Examples/deepMTJ_Summary.png" width="95%">
+<img src="https://github.com/luuleitner/deepMTJ/blob/master/Examples/deepMTJ_Summary.png" width="95%">
 </p>
 
 # #deepMTJ
