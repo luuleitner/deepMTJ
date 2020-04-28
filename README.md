@@ -5,6 +5,8 @@
 [![GitHub contributors](https://img.shields.io/badge/Contributions-Welcome-brightgreen)](https://github.com/luuleitner/deepMTJ)
 [![Twitter Follow](https://img.shields.io/twitter/follow/luuleitner?label=Follow&style=social)](https://twitter.com/luuleitner)
 
+![#deepMTJ](/luuleitner/deepMTJ/Examples/deepMTJ_Summary.png)
+
 # #deepMTJ
 Automatic muscle tendon junction tracking using deep learning
 
