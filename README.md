@@ -32,19 +32,20 @@ This is one possible way to run [#deepMTJ](https://github.com/luuleitner/deepMTJ
 
 1. Download the 'requirements.txt' File
 2. Install [Anaconda](https://www.anaconda.com/) (v1.9.12*) for Python v3.7
-3. Create the `deepMTJ` virtual environment in your Anaconda terminal and install all necessary libraries using the following code in the terminal window:
+3. Create the `deepMTJ` virtual environment in your Anaconda terminal and install all necessary libraries (listed in the 'requirements.txt' File) using the following code in the terminal window:
 
 ```
 conda create --name deepMTJ python=3.6 --file requirements.txt
 ```
 
-additional channels might be necessary to add packages check [Anaconda.org](https://anaconda.org/)
+additional channels might be necessary to add packages (check [Anaconda.org](https://anaconda.org/))
 ```
 conda config --append channels **add channels here**
 ```
 
 3. Install [Pycharm](https://www.jetbrains.com/pycharm/)
-4. Clone this GitHub repository to your local machine using [https://github.com/luuleitner/deepMTJ](https://github.com/luuleitner/deepMTJ)
+4. Clone this GitHub repository onto your local machine using [https://github.com/luuleitner/deepMTJ](https://github.com/luuleitner/deepMTJ)
+5. Use `File - Settings - Project Interpreter` to install the Python `deepMTJ`as your project environment.
 
 **tested version for #deepMTJ*
 
