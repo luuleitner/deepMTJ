@@ -34,7 +34,7 @@ You can download our trained networks (540 MB) via [chriskross.org](https://driv
 
 The #deepMTJ repository contains:
 
-- `examples` folder contains all result plots and figures of the IEEE-EMBC publication in high resolution.
+- `examples` folder with all result plots and figures of the IEEE-EMBC 2020 publication in high resolution.
 - `mtj_tracking` folder:
   - `label` folder contains the video annotation tool: start `main.py`
   - `train` folder contains the network training and evaluation: start `train.py` for `VGG-Attention-3` model and `train_resnet.py` for the `ResNet50` model.
