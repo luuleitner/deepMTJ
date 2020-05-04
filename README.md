@@ -62,7 +62,7 @@ conda config --append channels **add channels here**
 5. Clone this GitHub repository onto your local machine using [https://github.com/luuleitner/deepMTJ](https://github.com/luuleitner/deepMTJ)
 6. Use `File - Settings - Project Interpreter` to install `deepMTJ` as your Python project interpreter.
 7. Run Python scripts
-8. (To run this code on your GPU might require additional settings. DeepLabCut provids very useful information on the GPU / Cuda / TensorFlow interfaces which you can [find here](https://github.com/AlexEMG/DeepLabCut/blob/master/docs/installation.md))
+8. (Running this code on your GPU might require additional settings. DeepLabCut provids very useful information and additional links on the GPU / Cuda / Python / TensorFlow interfaces. You can find that [information here](https://github.com/AlexEMG/DeepLabCut/blob/master/docs/installation.md))
 
 **tested version for #deepMTJ*
 
