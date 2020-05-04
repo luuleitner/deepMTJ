@@ -12,9 +12,10 @@
 # #deepMTJ
 Automatic muscle tendon junction tracking using deep learning
 
-In this repository we provide the `#deepMTJ` Python code for annotation, training and evaluation. If you wish to contribute please `fork` this repository and open a `pull request` or simply get in touch via `christoph.leitner@tugraz.at`. 
+In this repository we provide the `#deepMTJ` Python code for annotation, training and evaluation. If you wish to contribute please `fork` this repository and open a `pull request` or simply get in touch via [E-MAIL](mailto:christoph.leitner@tugraz.at?subject=[#deepMTJ]%20Source%20Han%20Sans). 
 
-Download our trained networks (588 MB) via [chriskross.org](http://www.chriskross.org/).
+You can download our trained networks (588 MB) via [chriskross.org](http://www.chriskross.org/).
+
 
 ***"do, ut des" (lat.) ...if we could assist you with this code please cite our work:***
 
