@@ -41,8 +41,8 @@ import numpy as np
 import os
 
 base_path = os.path.join(os.environ.get("HOME"), 'final_run_v3', "mtj_training_att3_lr01_pc")
-path = '/media/cleitner/Data/002_IEEE_EMBC/02_TrainingSet/Esaote'
-labels_path = '/media/cleitner/Data/002_IEEE_EMBC/02_TrainingSet/20200121_combined.csv'
+path = '*add path to video files*'
+labels_path = '*add path to lables*.csv'
 
 os.makedirs(os.path.join(base_path, 'weights'), exist_ok=True)
 
