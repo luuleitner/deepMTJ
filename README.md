@@ -9,8 +9,7 @@
 <img src="https://github.com/luuleitner/deepMTJ/blob/master/Examples/deepMTJ_Summary.png" width="80%">
 </p>
 
-# #deepMTJ
-Automatic muscle tendon junction tracking using deep learning
+## #deepMTJ: Automatic muscle tendon junction tracking using deep learning
 
 In this repository we provide the `#deepMTJ` Python code for annotation, training and evaluation. If you wish to contribute please `fork` this repository and open a `pull request` or simply get in touch via [E-mail](mailto:christoph.leitner@tugraz.at?subject=[GitHub]#deepMTJ). 
 
@@ -30,7 +29,7 @@ You can download our trained networks (540 MB) via [chriskross.org](https://driv
 }
 ```
 
-## Repository Structure
+# Repository Structure
 
 The #deepMTJ repository contains:
 
@@ -42,7 +41,7 @@ The #deepMTJ repository contains:
 - Trained networks (540 MB) can be downloaded from: [chriskross.org](https://drive.google.com/file/d/11SKPpreBFw9bREn8Cw5B4BGTKY0ePGJQ/view?usp=sharing)
 
 
-## Getting Started
+# Getting Started
 
 This is one possible way to run [#deepMTJ](https://github.com/luuleitner/deepMTJ) on your computer. We have used the [Anaconda](https://www.anaconda.com/) package manager and the [Pycharm](https://www.jetbrains.com/pycharm/) programming environment to develop, train and run our networks.
 
@@ -66,7 +65,7 @@ conda config --append channels **add channels here**
 
 **tested version for #deepMTJ*
 
-## License
+# License
 
 This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](https://github.com/luuleitner/deepMTJ/blob/master/LICENSE) file for details
 
