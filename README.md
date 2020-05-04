@@ -30,10 +30,10 @@ Automatic muscle tendon junction tracking using deep learning
 
 The #deepMTJ repository contains:
 
-- `examples` all result plots and figures of the IEEE-EMBC publication in high resolution
-- `mtj_tracking`
-      - `label` folder contains the video annotation tool: start `main.py`
-      - `train` folder contains the network training and evaluation: start `train.py` for `VGG-Attention-3` model and `train_resnet.py` for the `ResNet50` model.
+- `examples` folder contains all result plots and figures of the IEEE-EMBC publication in high resolution.
+- `mtj_tracking` folder:
+  - `label` folder contains the video annotation tool: start `main.py`
+  - `train` folder contains the network training and evaluation: start `train.py` for `VGG-Attention-3` model and `train_resnet.py` for the `ResNet50` model.
 
 
 ## Getting Started
