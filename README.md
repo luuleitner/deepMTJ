@@ -26,13 +26,23 @@ Automatic muscle tendon junction tracking using deep learning
 }
 ```
 
+## Repository Structure
+
+The #deepMTJ repository contains:
+
+- `examples` all result plots and figures of the IEEE-EMBC publication in high resolution
+- `mtj_tracking`
+      - `label` folder contains the video annotation tool: start `main.py`
+      - `train` folder contains the network training and evaluation: start `train.py` for `VGG-Attention-3` model and `train_resnet.py` for the `ResNet50` model.
+
+
 ## Getting Started
 
 This is one possible way to run [#deepMTJ](https://github.com/luuleitner/deepMTJ) on your computer. We have used the [Anaconda](https://www.anaconda.com/) package manager and the [Pycharm](https://www.jetbrains.com/pycharm/) programming environment to develop, train and run our networks.
 
-1. Download the 'requirements.txt' File
+1. Download the `requirements.txt` File
 2. Install [Anaconda](https://www.anaconda.com/) (v1.9.12*) for Python v3.7
-3. Create the `deepMTJ` virtual environment in your Anaconda terminal and install all necessary libraries (listed in the 'requirements.txt' File) using the following code in the terminal window:
+3. Create the `deepMTJ` virtual environment in your Anaconda terminal and install all necessary libraries (listed in the `requirements.txt` File) using the following code in the terminal window:
 
 ```
 conda create --name deepMTJ python=3.6 --file requirements.txt
@@ -43,9 +53,10 @@ additional channels might be necessary to add packages (check [Anaconda.org](htt
 conda config --append channels **add channels here**
 ```
 
-3. Install [Pycharm](https://www.jetbrains.com/pycharm/)
-4. Clone this GitHub repository onto your local machine using [https://github.com/luuleitner/deepMTJ](https://github.com/luuleitner/deepMTJ)
-5. Use `File - Settings - Project Interpreter` to install the Python `deepMTJ`as your project environment.
+4. Install [Pycharm](https://www.jetbrains.com/pycharm/)
+5. Clone this GitHub repository onto your local machine using [https://github.com/luuleitner/deepMTJ](https://github.com/luuleitner/deepMTJ)
+6. Use `File - Settings - Project Interpreter` to install `deepMTJ` as your Python project interpreter.
+7. Run Python scripts
 
 **tested version for #deepMTJ*
 
