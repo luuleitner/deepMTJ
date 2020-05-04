@@ -17,6 +17,7 @@ In this repository we provide the `#deepMTJ` Python code for annotation, trainin
 You can download our trained networks (588 MB) via [chriskross.org](http://www.chriskross.org/).
 
 
+
 ***"do, ut des" (lat.) ...if we could assist you with this code please cite our work:***
 
 ```
@@ -40,7 +41,7 @@ The #deepMTJ repository contains:
   - `label` folder contains the video annotation tool: start `main.py`
   - `train` folder contains the network training and evaluation: start `train.py` for `VGG-Attention-3` model and `train_resnet.py` for the `ResNet50` model.
   
-- Trained networks can be downloaded from:  
+- Trained networks can be downloaded from: [chriskross.org](http://www.chriskross.org/)
 
 
 ## Getting Started
