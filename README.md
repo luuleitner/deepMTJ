@@ -21,7 +21,7 @@ Automatic muscle tendon junction tracking using deep learning
    booktitle={in Proc. 42nd Conferences of the IEEE Engineering in Medicine and Biology Society},
    venue={Montreal,Canada},
    publisher={IEEE},
-   month=july,
+   month=07,
    year={2020}  
 }
 ```
