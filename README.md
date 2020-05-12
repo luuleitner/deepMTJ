@@ -50,19 +50,14 @@ This is one possible way to run [#deepMTJ](https://github.com/luuleitner/deepMTJ
 3. Create the `deepMTJ` virtual environment in your Anaconda terminal and install all necessary libraries (listed in the `requirements.txt` File) using the following code in the terminal window:
 
 ```
-conda create --name deepMTJ python=3.6 --file requirements.txt
-```
-
-additional channels might be necessary to add packages (check [Anaconda.org](https://anaconda.org/))
-```
-conda config --append channels **add channels here**
+conda create --name deepMTJ python=3.7 --file requirements.txt
 ```
 
 4. Install [Pycharm](https://www.jetbrains.com/pycharm/)
 5. Clone this GitHub repository onto your local machine using [https://github.com/luuleitner/deepMTJ](https://github.com/luuleitner/deepMTJ)
 6. Use `File - Settings - Project Interpreter` to install `deepMTJ` as your Python project interpreter.
 7. Run Python scripts
-8. (Running this code on your GPU might require additional settings. DeepLabCut provids very useful information and additional links on the GPU / Cuda / Python / TensorFlow interfaces. You can find that [information here](https://github.com/AlexEMG/DeepLabCut/blob/master/docs/installation.md))
+8. (Running TensorFlow code on your GPU might require additional settings. DeepLabCut provids very useful information and additional links on the GPU / Cuda / Python / TensorFlow interfaces. You can find that [information here](https://github.com/AlexEMG/DeepLabCut/blob/master/docs/installation.md))
 
 **tested version for #deepMTJ*
 
