@@ -33,13 +33,13 @@ You can download our trained networks (540 MB) via [chriskross.org](https://driv
 
 The #deepMTJ repository contains:
 
-### Annotate
+### 1. Annotate
 - `mtj_tracking/label` folder contains the video annotation tool: start `main.py`
 
-### Train
+### 2. Train
 - `mtj_tracking/train` folder contains the network training and evaluation: start `train.py` for `VGG-Attention-3` model and `train_resnet.py` for the `ResNet50` model.
 
-### Predict
+### 3. Predict
 - Trained networks (540 MB) can be downloaded from: [chriskross.org](https://drive.google.com/file/d/18-tX4SX1xabOf3J77Qt8BTNt412rYiK5/view?usp=sharing)
 
 ### AddOn
