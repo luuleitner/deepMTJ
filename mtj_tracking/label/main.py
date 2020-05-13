@@ -5,7 +5,7 @@
 	Copyright (C) 2020 by the authors: Jarolim Robert (University of Graz), <robert.jarolim@uni-graz.at> and
 	Leitner Christoph (Graz University of Technology), <christoph.leitner@tugraz.at>.
 	
-	Please note: main.ui was compailed in open-source Qt (protected by GPLv3)
+	Please note: main.ui was compiled in open-source Qt (protected by GPLv3)
 
 	This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
