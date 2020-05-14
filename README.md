@@ -42,7 +42,7 @@ The #deepMTJ repository contains:
 ### 3. Predict your video data with our trained networks
 - Trained networks (540 MB) can be downloaded from: [chriskross.org](https://drive.google.com/file/d/18-tX4SX1xabOf3J77Qt8BTNt412rYiK5/view?usp=sharing)
 
-### AddOn
+### Add-On's
 - `examples` folder with all result plots and figures of the IEEE-EMBC 2020 publication in high resolution.
 
 # Getting Started
@@ -61,7 +61,7 @@ conda create --name deepMTJ python=3.7 --file requirements.txt
 5. Clone this GitHub repository onto your local machine using [https://github.com/luuleitner/deepMTJ](https://github.com/luuleitner/deepMTJ)
 6. Use `File - Settings - Project Interpreter` to install `deepMTJ` as your Python project interpreter.
 7. Run Python scripts
-8. (Running TensorFlow code on your GPU might require additional settings. DeepLabCut provids very useful information and additional links on the GPU / Cuda / Python / TensorFlow interfaces. You can find that [information here](https://github.com/AlexEMG/DeepLabCut/blob/master/docs/installation.md))
+8. (Running TensorFlow on your GPU might require additional settings. DeepLabCut provids very useful information and additional links on the GPU / Cuda / Python / TensorFlow interfaces. You can find that [information here](https://github.com/AlexEMG/DeepLabCut/blob/master/docs/installation.md))
 
 **tested version for #deepMTJ*
 
