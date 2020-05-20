@@ -9,6 +9,10 @@
 <img src="https://github.com/luuleitner/deepMTJ/blob/master/Examples/deepMTJ_Summary.png" width="80%">
 </p>
 
+<p align="center">
+<img src="http://www.chriskross.org/wp-content/uploads/2020/05/deepMTJprediction_small.gif" height="220">
+</p>
+
 ## #deepMTJ 
 ### Automatic muscle tendon junction tracking using deep learning
 
