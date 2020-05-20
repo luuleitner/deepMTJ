@@ -57,7 +57,7 @@ The `deepMTJ` repository contains:
 This is one possible way to run `#deepMTJ` on your computer. We have used the [Anaconda](https://www.anaconda.com/) package manager and the [Pycharm](https://www.jetbrains.com/pycharm/) programming environment to develop, train and run our networks.
 
 1. Download the `requirements.txt` File
-2. Install [Anaconda](https://www.anaconda.com/) (v1.9.12*) for Python v3.7
+2. Install [Anaconda](https://www.anaconda.com/) for Python v3.7
 3. Create the `deepMTJ` virtual environment in your Anaconda terminal and install all necessary libraries (listed in the `requirements.txt` File) using the following code in the terminal window:
 
 ```
@@ -69,8 +69,6 @@ conda create --name deepMTJ python=3.7 --file requirements.txt
 6. Use `File - Settings - Project Interpreter` to install `#deepMTJ` as your Python project interpreter.
 7. Run Python scripts
 8. (Running TensorFlow on your GPU might require additional settings. DeepLabCut provids very useful information and additional links on the GPU / Cuda / Python / TensorFlow interfaces. You can find that [information here](https://github.com/AlexEMG/DeepLabCut/blob/master/docs/installation.md))
-
-**tested version for `#deepMTJ`*
 
 # License
 
