@@ -19,7 +19,7 @@ This repository provides the complete `#deepMTJ` Python source code for annotati
 - train your own networks from scratch 
 - use our trained networks to track the muscle tendon junction in your ultrasound video files
 - to employ our trained networks for transfer learning tasks
-- or to contribute to the `#deepMTJ` open-source initiative get in touch via GitHub or [E-mail](mailto:christoph.leitner@tugraz.at?subject=[GitHub]#deepMTJ).
+- or to contribute to the `#deepMTJ` open-source initiative (get in touch via GitHub or [E-mail](mailto:christoph.leitner@tugraz.at?subject=[GitHub]#deepMTJ))
 
 
 
