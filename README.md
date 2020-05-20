@@ -38,7 +38,7 @@ This repository provides the complete `#deepMTJ` Python source code for annotati
 
 # Repository Structure
 
-The #deepMTJ repository contains:
+The `deepMTJ` repository contains:
 
 ### 1. Annotate your video data
 - `mtj_tracking/label` folder contains the video annotation tool: start `main.py`
@@ -54,7 +54,7 @@ The #deepMTJ repository contains:
 
 # Getting Started
 
-This is one possible way to run [#deepMTJ](https://github.com/luuleitner/deepMTJ) on your computer. We have used the [Anaconda](https://www.anaconda.com/) package manager and the [Pycharm](https://www.jetbrains.com/pycharm/) programming environment to develop, train and run our networks.
+This is one possible way to run `#deepMTJ` on your computer. We have used the [Anaconda](https://www.anaconda.com/) package manager and the [Pycharm](https://www.jetbrains.com/pycharm/) programming environment to develop, train and run our networks.
 
 1. Download the `requirements.txt` File
 2. Install [Anaconda](https://www.anaconda.com/) (v1.9.12*) for Python v3.7
