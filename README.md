@@ -38,7 +38,7 @@ This repository provides the complete `#deepMTJ` Python source code for annotati
 
 # Repository Structure
 
-The `deepMTJ` repository contains:
+The `#deepMTJ` repository contains:
 
 ### 1. ANNOTATE your video data
 - `mtj_tracking/label` folder contains the video annotation tool: start `main.py`
