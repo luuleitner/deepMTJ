@@ -17,7 +17,7 @@ For robust and precise predictions (i.e. match human labelling accuracy) of musc
 
 This repository provides the complete `#deepMTJ` Python source code for annotation, training and prediction. With `#deepMTJ` you can: 
 - train your own networks from scratch 
-- use our trained networks for preictions
+- use our trained networks to track the muscle tendon junction in your ultrasound video files
 - or to employ our trained networks for transfer learning tasks 
 
 If you wish to contribute to our open-source initiative please `fork` our repository and open a `pull request` or simply get in touch via [E-mail](mailto:christoph.leitner@tugraz.at?subject=[GitHub]#deepMTJ).
