@@ -12,7 +12,7 @@
 ## #deepMTJ 
 ### Automatic muscle tendon junction tracking using deep learning
 
-`#deepMTJ` is a time efficient tool (>7x faster than previous algorithms) for automatic tracking of the muscle tendon junction in ultrasound images based on deep learning. We built `#deepMTJ` to support clinical biomechanists and locomotion researchers with a reliable open-source tool for gait analysis.
+`#deepMTJ` is a time efficient tool based on deep learning (>7x faster than previous algorithms) for automatic tracking of the muscle tendon junction in ultrasound images. We built `#deepMTJ` to support clinical biomechanists and locomotion researchers with a reliable open-source tool for gait analysis.
 
 <p align="center">
 <img src="https://github.com/luuleitner/deepMTJ/blob/master/Examples/deepMTJ_Summary.png" width="80%">
