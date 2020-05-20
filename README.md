@@ -6,7 +6,7 @@
 [![Twitter Follow](https://img.shields.io/twitter/follow/luuleitner?label=Follow&style=social)](https://twitter.com/luuleitner)
 
 <p align="center">
-<img src="http://www.chriskross.org/wp-content/uploads/2020/05/deepMTJprediction_small.gif" height="220">
+<img src="https://github.com/luuleitner/deepMTJ/blob/master/Examples/deepMTJprediction_small.gif" height="220">
 </p>
 
 ## #deepMTJ 
