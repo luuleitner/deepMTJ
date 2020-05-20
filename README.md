@@ -18,7 +18,7 @@
 <img src="https://github.com/luuleitner/deepMTJ/blob/master/Examples/deepMTJ_Summary.png" width="80%">
 </p>
 
-For robust and precise predictions (i.e. match human labelling accuracy) of muscle tendon junctions in ultrasound images we employ convolutional neural networks with an attention mechanism. The provided networks were trained on a very large (training 6400 frames/validation 1600 frames/test 1147 frames) and highly diverse dataset of healthy and impaired subjects performing full range of motion and maximum contractions. Due to the clear separation of individual subjects into a training and test set, we demonstrate that our approach is capable of tracking the MTJ on previously unseen subjects.
+For robust and precise predictions (i.e. match human labelling accuracy) of muscle tendon junctions in ultrasound images we employ convolutional neural networks with an attention mechanism. The provided networks were trained on a large (training 6400 frames/validation 1600 frames/test 1147 frames) and highly diverse dataset of healthy and impaired subjects performing full range of motion and maximum contractions. Due to the clear separation of individual subjects into a training and test set, we demonstrate that our approach is capable of tracking the MTJ on previously unseen subjects.
 
 This repository provides the complete `#deepMTJ` Python source code for annotation, training and prediction. With `#deepMTJ` you can: 
 - train your own networks from scratch 
