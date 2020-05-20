@@ -52,7 +52,7 @@ The `#deepMTJ` repository contains:
 `mtj_tracking/train` folder contains the network training and evaluation: start `train.py` for `VGG-Attention-3` model and `train_resnet.py` for the `ResNet50` model.
 
 ### 3. PREDICT muscle tendon junctions in your own video data with our trained networks
-Trained networks (540 MB) can be downloaded from: [chriskross.org](https://drive.google.com/file/d/18-tX4SX1xabOf3J77Qt8BTNt412rYiK5/view?usp=sharing). The provided datasets (`ResNet-50.hdf5`, `VGG-16.hdf5`, `VGG-Attention-2.hdf5`, `VGG-Attention-3.hdf5`) are licensed under a [Creative Commons Attribution 4.0 International License](https://github.com/luuleitner/deepMTJ/blob/master/LICENSE_Datasets).
+Trained networks (540 MB) can be downloaded from: [chriskross.org](https://drive.google.com/file/d/11aTDxaINoAnsefEURpZQ1aZzhz6ikS5Z/view?usp=sharing). The provided datasets (`ResNet-50.hdf5`, `VGG-16.hdf5`, `VGG-Attention-2.hdf5`, `VGG-Attention-3.hdf5`) are licensed under a [Creative Commons Attribution 4.0 International License](https://github.com/luuleitner/deepMTJ/blob/master/LICENSE_Datasets).
 
 [![CC BY 4.0](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
 
