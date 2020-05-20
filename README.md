@@ -52,7 +52,7 @@ The `#deepMTJ` repository contains:
 `mtj_tracking/train` folder contains the network training and evaluation: start `train.py` for `VGG-Attention-3` model and `train_resnet.py` for the `ResNet50` model.
 
 ### 3. PREDICT muscle tendon junctions in your own video data with our trained networks
-The `mtj_tracking/predict` folder contains an easy to use prediction script (minimal Python knowledge needed to get it running). Simply go to `main.py` and add your data paths then hit start.
+The `mtj_tracking/predict` folder contains an easy to use prediction script (minimal Python knowledge needed to get it running). G to `main.py`, add your data paths and start your predictions...
 
 This script reads your provided AVI-Video Files and returns the annotated frames (downscaled AVI-videos) as well as the X,Y-coordinates of the muscle tendon junction (csv-File). 
 
