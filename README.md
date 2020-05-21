@@ -72,21 +72,23 @@ Trained networks (540 MB) can be downloaded from: [chriskross.org](https://drive
 
 # Getting Started
 
-This is one possible way to run `#deepMTJ` on your computer. We have used the [Anaconda](https://www.anaconda.com/) package manager and the [Pycharm](https://www.jetbrains.com/pycharm/) programming environment to develop, train and run our networks.
+This is one possible way to run `#deepMTJ` on your computer. 
 
-1. Download the `requirements.txt` File
-2. Install [Anaconda](https://www.anaconda.com/) for Python v3.7
-3. Create the `deepMTJ` virtual environment in your Anaconda terminal and install all necessary libraries (listed in the `requirements.txt` File) using the following code in the terminal window:
+1. Install [Anaconda](https://www.anaconda.com/) for Python v3.7 (on prompt choose to include python in your path)
+2. Download the trained [VGG-Attention-3 model](https://drive.google.com/file/d/11aTDxaINoAnsefEURpZQ1aZzhz6ikS5Z/view?usp=sharing).
+2. Clone this GitHub repository to your local machine using [https://github.com/luuleitner/deepMTJ](https://github.com/luuleitner/deepMTJ).
+3. Open the terminal and navigate to the downloaded repository (``cd <<repository path>>>``).
+4. Create the `deepMTJ` virtual environment in your Anaconda terminal and install all necessary libraries (listed in the `requirements.txt` file) using the following code in the terminal window:
 
 ```
 conda create --name deepMTJ python=3.7 --file requirements.txt
+conda activate deepMTJ
+```
+5. Run the model:
+```
+python -m mtj_tracking.predict.main <<downloaded model path>> <<input path>> <<output path>>
 ```
 
-4. Install [Pycharm](https://www.jetbrains.com/pycharm/)
-5. Clone this GitHub repository onto your local machine using [https://github.com/luuleitner/deepMTJ](https://github.com/luuleitner/deepMTJ)
-6. Use `File - Settings - Project Interpreter` to install `#deepMTJ` as your Python project interpreter.
-7. Run Python scripts
-8. (Running TensorFlow on your GPU might require additional settings. DeepLabCut provids very useful information and additional links on the GPU / Cuda / Python / TensorFlow interfaces. You can find more [information here](https://github.com/AlexEMG/DeepLabCut/blob/master/docs/installation.md))
 
 # License
 

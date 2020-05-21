@@ -18,7 +18,7 @@
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
 """
-
+import sys
 
 import tensorflow as tf
 tf_config=tf.compat.v1.ConfigProto()
@@ -35,41 +35,44 @@ from mtj_tracking.predict.dataOUT import WriteVideoOut, csvPredictions, ATTWrite
 
 
 #########################################################################################################################
-#                                               ADAPT File Path HERE
-#########################################################################################################################
-##
-base = 'C:/Add Path here/deepMTJ/'     #------> Base to your Project Directory
-Wpath = os.path.join(base, 'TrainedModels/', 'VGG-Attention-3.hdf5')    #------> Path to #deepMTJ Trained-Model (hdf5-File)
-VDpath_in = os.path.join(base, 'Videos/')   #------> Path to Videos you want to predict (Relative to BASE Path!)
-VDpath_out = os.path.join(base, 'Results/')  #------> Path where you want to save Result-Videos (Relative to BASE Path!)
-##
-#########################################################################################################################
+# Read arguments
+model_path = sys.argv[1]
+input_path = sys.argv[2]
+output_path = sys.argv[3]
 #########################################################################################################################
 
 
-# LOAD DATA
-if not os.listdir(VDpath_in):
+print('################################# Load Data ###################################')
+# Check data
+if not os.path.exists(input_path) or not os.listdir(input_path):
     print('NO VIDEO AVAILABLE FOR PREDICTION')
     exit()
 
-predict_data_generator = DataHandler(VDpath_in, full_res=False)
+# Create output directory
+os.makedirs(output_path, exist_ok=True)
+
+# Load data
+predict_data_generator = DataHandler(input_path, full_res=False)
 x_test = np.array([d[1] for d in predict_data_generator.data])
 Vlist = np.unique(np.array([d[0] for d in predict_data_generator.data]), return_index=True, return_inverse=False, return_counts=True, axis=None)
 
 # LOAD MODEL BACKBONE
+print('################################# Load Model ##################################')
 VGGA3model = AttentionVGG(att='att3', height=64, width=128, channels=1, compatibilityfunction='dp',
                      optimizer=SGD(lr=0.1, momentum=0.9, decay=0.0000001), loss=normed_squared_distance)
 
 # LOAD TRAINED WEIGHTS
-VGGA3model.model.load_weights(Wpath)
+VGGA3model.model.load_weights(model_path)
 
 # PREDICT
+print('################################# Start Prediction ############################')
 predictions = VGGA3model.model.predict(x_test)
 attention_maps = VGGA3model.attention_map_model.predict(x_test)
 
+print('################################# Saving Results ##############################')
 # WRITE VIDEO FILES
-WriteVideoOut(x_test, predictions, VDpath_out, Vlist) #Predictions
+WriteVideoOut(x_test, predictions, output_path, Vlist) #Predictions
 #ATTWriteVideoOut(x_test, predictions, attention_maps, VDpath_out, Vlist) #Predictions with Attention Maps (only for display)
 
 # WRITE CSV PREDICTION FILES
-csvPredictions(x_test, predictions, VDpath_out, Vlist)
+csvPredictions(x_test, predictions, output_path, Vlist)
