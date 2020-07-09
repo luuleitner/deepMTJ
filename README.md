@@ -27,9 +27,9 @@ This repository provides the complete `#deepMTJ` Python source code for annotati
 - or contribute to the `#deepMTJ` open-source initiative (get in touch via GitHub or [E-mail](mailto:christoph.leitner@tugraz.at?subject=[GitHub]#deepMTJ))
 
 ***How can I contribute?***
-- provide improved trained-models and data
+- provide improved trained-models and data (will be featured on this website)
 - report bugs
-- get in touch and interact in  the community..
+- get in touch and interact..
 - ...
 
 
