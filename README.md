@@ -12,13 +12,13 @@
 ## #deepMTJ 
 ### Automatic muscle tendon junction tracking using deep learning
 
-`#deepMTJ` is a time efficient tool based on deep learning (>7x faster than previous algorithms) for automatic tracking of the muscle tendon junction (MTJ) in ultrasound images. We built `#deepMTJ` to support clinical biomechanists and locomotion researchers with a reliable open-source tool for gait analysis.
+`#deepMTJ` is a tool based on deep learning for automatic tracking of the muscle tendon junction (MTJ) in ultrasound images. We built `#deepMTJ` to support clinical biomechanists and locomotion researchers with an open-source tool for gait analysis.
 
 <p align="center">
 <img src="https://github.com/luuleitner/deepMTJ/blob/master/Examples/deepMTJ_Summary.png" width="80%">
 </p>
 
-For robust and precise predictions (i.e. match human labelling accuracy) of muscle tendon junctions in ultrasound images we employ convolutional neural networks with an attention mechanism. The provided networks were trained on a large (training 6400 frames/validation 1600 frames/test 1147 frames) and highly diverse dataset of healthy and impaired subjects performing full range of motion and maximum contractions. Due to the clear separation of individual subjects into a training and test set, we demonstrate that our approach is capable of tracking the MTJ on previously unseen subjects.
+We employ convolutional neural networks with an attention mechanism. The provided networks were trained on a large (training 6400 frames/validation 1600 frames/test 1147 frames) and diverse dataset of healthy and impaired subjects performing full range of motion and maximum contractions.
 
 This repository provides the complete `#deepMTJ` Python source code for annotation, training and prediction. With `#deepMTJ` you can: 
 - train your own networks from scratch 
@@ -92,5 +92,5 @@ python -m mtj_tracking.predict.main <<downloaded model path>> <<input path>> <<o
 
 # License
 
-This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](https://github.com/luuleitner/deepMTJ/blob/master/LICENSE) file for details
+This program is free software and licensed under the GNU General Public License v3.0 - see the [LICENSE](https://github.com/luuleitner/deepMTJ/blob/master/LICENSE) file for details.
 
