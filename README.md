@@ -26,13 +26,6 @@ This repository provides the complete `#deepMTJ` Python source code for annotati
 - employ our trained networks for transfer learning tasks
 - or contribute to the `#deepMTJ` open-source initiative (get in touch via GitHub or [E-mail](mailto:christoph.leitner@tugraz.at?subject=[GitHub]#deepMTJ))
 
-***How can I contribute?***
-- provide improved trained-models and data (will be featured on this website)
-- report bugs
-- get in touch and interact..
-- ...
-
-
 
 ***"do, ut des" (lat.) ...if we could assist you with this code please cite our work:***
 ```
