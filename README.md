@@ -4,7 +4,6 @@
 [![License: GPLv3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses)
 [![GitHub contributors](https://img.shields.io/badge/Contributions-Welcome-brightgreen)](https://github.com/luuleitner/deepMTJ)
 [![Twitter Follow](https://img.shields.io/twitter/follow/luuleitner?label=Follow&style=social)](https://twitter.com/luuleitner)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/automatic-tracking-of-the-muscle-tendon/muscle-tendon-junction-identification-on-1)](https://paperswithcode.com/sota/muscle-tendon-junction-identification-on-1?p=automatic-tracking-of-the-muscle-tendon)
 
 <p align="center">
 <img src="https://github.com/luuleitner/deepMTJ/blob/master/Examples/deepMTJprediction_small.gif" height="220">
