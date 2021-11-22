@@ -35,23 +35,28 @@ For online predictions visit [deepmtj.org](https://deepmtj.org/) (running in bet
 
 ## Publications
 ```
-@article{deepmtj2021,
-   title={A Human-Centered Machine-Learning Approach for Muscle-Tendon Junction Tracking in Ultrasound Images},
-   author={Christoph Leitner and Robert Jarolim and Bernhard Englmair and Annika Kruse and Karen Andrea Lara Hernandez and Andreas Konrad and Eric Su and Jörg Schröttner and        Luke A. Kelly and Glen A. Lichtwark and  and Markus Tilp and Christian Baumgartner},
-   booktitle={IEEE Transactions on Biomedical Engineering},
-   publisher={IEEE},
-   year={2021}  
-}
+[1] @article{deepmtj2021a,
+      title={A Human-Centered Machine-Learning Approach for Muscle-Tendon Junction Tracking in Ultrasound Images},
+      year={2021}  
+      author={Christoph Leitner and Robert Jarolim and Bernhard Englmair and Annika Kruse and Karen Andrea Lara Hernandez and Andreas Konrad and Eric Su and Jörg Schröttner and       Luke A. Kelly and Glen A. Lichtwark and  and Markus Tilp and Christian Baumgartner},
+      journal = {IEEE Transactions on Biomedical Engineering},
+      publisher={IEEE},
+    }
 
-@inproceedings{deepmtj2020,
-   title={Automatic Tracking of the Muscle Tendon Junction in Healthy and Impaired Subjects using Deep Learning},
-   author={Christoph Leitner and Robert Jarolim and Andreas Konrad and Annika Kruse and Markus Tilp and Christian Baumgartner},
-   booktitle={in Proc. 42nd Conferences of the IEEE Engineering in Medicine and Biology Society},
-   venue={Montreal,Canada},
-   publisher={IEEE},
-   month=07,
-   year={2020}  
-}
+[2] @misc{deepmtj2021b,
+      title = {{deepMTJ test-set data}},
+      doi = {10.6084/m9.figshare.16822978.v2}
+    }
+ 
+[3] @inproceedings{deepmtj2020, 
+      title={Automatic Tracking of the Muscle Tendon Junction in Healthy and Impaired Subjects using Deep Learning*},   
+      year={2020},  
+      author={Leitner, Christoph and Jarolim, Robert and Konrad, Andreas and Kruse, Annika and Tilp, Markus and Schröttner, Jörg and Baumgartner, Christian},  
+      booktitle={2020 42nd Annual International Conference of the IEEE Engineering in Medicine   Biology Society (EMBC)},   
+      publisher={IEEE},
+      pages={4770-4774},  
+      doi={10.1109/EMBC44109.2020.9176145}
+    }
 ```
 
 ## Repository Structure and Data
@@ -62,8 +67,11 @@ For online predictions visit [deepmtj.org](https://deepmtj.org/) (running in bet
 ### 2. TRAIN your network with our backbones or TRANSFER our trained network to your application
 `mtj_tracking/train` folder contains the model backbone, the network training and evaluation
 
-#### Trained networks
+#### Download trained networks
 Trained networks (375 MB) can be downloaded from our [google cloud storage](https://storage.googleapis.com/deepmtj/IEEEtbme_model_2021/2021_Unet_deepmtj_ieeetbme_model.tf). The provided dataset (`2021_Unet_deepmtj_ieeetbme_model.tf`) is licensed under a [Creative Commons Attribution 4.0 International License](https://github.com/luuleitner/deepMTJ/blob/master/license_dataset).
+
+#### Download test dataset
+To benchmark your model you can download the test dataset containing 1344 ultrasound images 
 
 [![CC BY 4.0](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
 
