@@ -33,9 +33,9 @@ This repository contains the full python source code of `deepMTJ` including:
 For online predictions visit [deepmtj.org](https://deepmtj.org/) (running in beta with 200MB datasize limit) or [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luuleitner/deepMTJ/blob/master/mtj_tracking/predict/mtj_tracking.ipynb) (multiple and large file predictions)
 
 
-## Publications
+## <a name="citation_1"></a> Publications
 ```
-<a name="citation_1"></a> [1] @article{deepmtj2021a,
+[1] @article{deepmtj2021a,
       title={A Human-Centered Machine-Learning Approach for Muscle-Tendon Junction Tracking in Ultrasound Images},
       year={2021}  
       author={Christoph Leitner and Robert Jarolim and Bernhard Englmair and Annika Kruse and Karen Andrea Lara Hernandez and Andreas Konrad and Eric Su and Jörg Schröttner and       Luke A. Kelly and Glen A. Lichtwark and  and Markus Tilp and Christian Baumgartner},
