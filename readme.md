@@ -54,7 +54,7 @@ For online predictions visit [deepmtj.org](https://deepmtj.org/) (running in bet
 }
 ```
 
-## Repository Structure
+## Repository Structure and Data
 
 The `deepMTJ` repository contains:
 
@@ -65,7 +65,7 @@ The `deepMTJ` repository contains:
 `mtj_tracking/train` folder contains the model backbone, the network training and evaluation
 
 #### Trained networks
-Trained networks (375 MB) can be downloaded from our [google storage](https://storage.googleapis.com/deepmtj/IEEEtbme_model_2021/2021_Unet_deepmtj_ieeetbme_model.tf). The provided dataset (`2021_Unet_deepmtj_ieeetbme_model.tf`) are licensed under a [Creative Commons Attribution 4.0 International License](https://github.com/luuleitner/deepMTJ/blob/master/license_dataset).
+Trained networks (375 MB) can be downloaded from our [google cloud storage](https://storage.googleapis.com/deepmtj/IEEEtbme_model_2021/2021_Unet_deepmtj_ieeetbme_model.tf). The provided dataset (`2021_Unet_deepmtj_ieeetbme_model.tf`) are licensed under a [Creative Commons Attribution 4.0 International License](https://github.com/luuleitner/deepMTJ/blob/master/license_dataset).
 
 [![CC BY 4.0](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
 
@@ -77,12 +77,12 @@ Cloud based prediction services accessible via [deepmtj.org](https://deepmtj.org
 ### Add-on's
 - `data` folder with additional result plots and figures in high resolution.
 
-# Getting started with the code
+## Getting started with the code
 
 This is one possible way to run `#deepMTJ` source code on your computer. 
 
 1. Install [Anaconda](https://www.anaconda.com/) for Python v3.7 (on prompt choose to include python in your path)
-2. Download the trained [VGG-Attention-3 model](https://drive.google.com/file/d/11aTDxaINoAnsefEURpZQ1aZzhz6ikS5Z/view?usp=sharing).
+2. Download the trained model from [google cloud storage](https://storage.googleapis.com/deepmtj/IEEEtbme_model_2021/2021_Unet_deepmtj_ieeetbme_model.tf).
 3. Clone this GitHub repository to your local machine using [https://github.com/luuleitner/deepMTJ](https://github.com/luuleitner/deepMTJ).
 4. Open the terminal and navigate to the downloaded repository (``cd <<repository path>>>``).
 5. Create the `deepMTJ` virtual environment in your Anaconda terminal and install all necessary libraries (listed in the `requirements.txt` file) using the following code in the terminal window:
@@ -96,6 +96,9 @@ conda activate deepMTJ
 python -m mtj_tracking.predict.main <<downloaded model path>> <<input path>> <<output path>>
 ```
 
+# Acknowledgment
+
+The experimental works and cloud deployments of the present study were supported by [Google Cloud](https://cloud.google.com/) infrastructure. 
 
 # License
 
