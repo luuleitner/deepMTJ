@@ -78,9 +78,9 @@ The provided dataset and models are licensed under a [Creative Commons Attributi
 [![CC BY 4.0](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
 
 ### 3. PREDICT muscle tendon junctions in your own video data with our trained networks
-For multiple and large file predictions: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luuleitner/deepMTJ/blob/master/mtj_tracking/predict/mtj_tracking.ipynb)
+For multiple and large file predictions [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luuleitner/deepMTJ/blob/master/mtj_tracking/predict/mtj_tracking.ipynb)
 
-Cloud based prediction services accessible via [deepmtj.org](https://deepmtj.org/) (running in beta with 200MB datasize limit)
+Cloud based predictions are accessible via [deepmtj.org](https://deepmtj.org/). These services run in beta and have a datasize limitation of 200 MB.
 
 ### Add-on's
 - `data` folder with additional result plots and figures in high resolution.
