@@ -58,10 +58,10 @@ The `#deepMTJ` repository contains:
 `mtj_tracking/label` folder contains the video annotation tool: start `main.py`
 
 ### 2. TRAIN your own network with our backbones
-`mtj_tracking/train` folder contains the network training and evaluation: start `train.py` for `VGG-Attention-3` model and `train_resnet.py` for the `ResNet50` model.
+`mtj_tracking/train` folder contains the model backbone, the network training and evaluation
 
 #### Trained networks
-Trained networks (540 MB) can be downloaded from: [deepmtj.org](https://storage.googleapis.com/deepmtj/IEEEtbme_model_2021/2021_Unet_deepmtj_ieeetbme_model.tf). The provided datasets (`2021_Unet_deepmtj_ieeetbme_model.tf`) are licensed under a [Creative Commons Attribution 4.0 International License](https://github.com/luuleitner/deepMTJ/blob/master/LICENSE_Datasets).
+Trained networks (375 MB) can be downloaded from: [google gcp](https://storage.googleapis.com/deepmtj/IEEEtbme_model_2021/2021_Unet_deepmtj_ieeetbme_model.tf). The provided datasets (`2021_Unet_deepmtj_ieeetbme_model.tf`) are licensed under a [Creative Commons Attribution 4.0 International License](https://github.com/luuleitner/deepMTJ/blob/master/LICENSE_Datasets).
 
 [![CC BY 4.0](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
 
@@ -70,12 +70,12 @@ The `mtj_tracking/predict` folder contains an easy to use prediction implemented
 
 This script reads your provided AVI-Video Files and returns the annotated frames (downscaled AVI-videos) as well as the X,Y-coordinates of the muscle tendon junction (csv-File). 
 
-### Add-On's
-- `examples` folder with all result plots and figures of the IEEE-EMBC 2020 publication in high resolution.
+### Add-on's
+- `examples` folder with all result plots and figures of publications in high resolution.
 
-# Getting Started
+# Getting started with the code
 
-This is one possible way to run `#deepMTJ` on your computer. 
+This is one possible way to run `#deepMTJ` source code on your computer. 
 
 1. Install [Anaconda](https://www.anaconda.com/) for Python v3.7 (on prompt choose to include python in your path)
 2. Download the trained [VGG-Attention-3 model](https://drive.google.com/file/d/11aTDxaINoAnsefEURpZQ1aZzhz6ikS5Z/view?usp=sharing).
