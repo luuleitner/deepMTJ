@@ -12,7 +12,7 @@
 <img src="https://github.com/luuleitner/deepMTJ/blob/master/data/v1.0_ieee_embc_2020/deepMTJprediction_small.gif" height="220">
 </p>
 
-## deepMTJ: A Machine-Learning Approach for Muscle-Tendon Junction Tracking in Ultrasound Images
+# deepMTJ: A Machine-Learning Approach for Muscle-Tendon Junction Tracking in Ultrasound Images
 
 `#deepMTJ` is a tool based on deep learning for automatic tracking of the muscle tendon junction (MTJ) in ultrasound images. We built `#deepMTJ` to support clinical biomechanists and locomotion researchers with an open-source tool for gait analysis.
 
