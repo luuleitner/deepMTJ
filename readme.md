@@ -68,11 +68,12 @@ For online predictions visit [deepmtj.org](https://deepmtj.org/) (running in bet
 `mtj_tracking/train` folder contains the model backbone, the network training and evaluation
 
 #### Download trained networks
-Trained networks (375 MB) can be downloaded from our [google cloud storage](https://storage.googleapis.com/deepmtj/IEEEtbme_model_2021/2021_Unet_deepmtj_ieeetbme_model.tf). The provided dataset (`2021_Unet_deepmtj_ieeetbme_model.tf`) is licensed under a [Creative Commons Attribution 4.0 International License](https://github.com/luuleitner/deepMTJ/blob/master/license_dataset).
+Trained networks (375 MB) can be downloaded from our [google cloud storage](https://storage.googleapis.com/deepmtj/IEEEtbme_model_2021/2021_Unet_deepmtj_ieeetbme_model.tf). 
 
 #### Download test dataset
-To benchmark your own model you can [download the test dataset](https://doi.org/10.6084/m9.figshare.16822978.v2) [[2]](#citation_1) used in [Leitner *et al.* 2021a](#citation_1). This dataset comprises 1344 images of muscle-tendon junctions recorded with 3 ultrasound imaging systems (Aixplorer V6, Esaote MyLab60, Telemed ArtUs), on 2 muscles (Lateral Gastrocnemius, Medial Gastrocnemius), and 2 movements (isometric maximum voluntary contractions, passive torque movements). We have included the ground truth labels of each image. These reference labels are the computed average positions from 4 specialist labels. Specialist annotaters had 2-10 years of experience in biomechanical and clinical research investigating muscles and tendons in 2-9 ultrasound studies in the past 2 years.
+You can [download the test dataset](https://doi.org/10.6084/m9.figshare.16822978.v2) [[2]](#citation_1) (464 MB) used in [Leitner *et al.* 2021a](#citation_1) (e.g., to benchmark your own model,...). This dataset comprises 1344 images of muscle-tendon junctions recorded with 3 ultrasound imaging systems (Aixplorer V6, Esaote MyLab60, Telemed ArtUs), on 2 muscles (Lateral Gastrocnemius, Medial Gastrocnemius), and 2 movements (isometric maximum voluntary contractions, passive torque movements). We have included the ground truth labels of each image. These reference labels are the computed average positions from 4 specialist labels. Specialist annotaters had 2-10 years of experience in biomechanical and clinical research investigating muscles and tendons in 2-9 ultrasound studies in the past 2 years.
 
+The provided dataset and models are licensed under a [Creative Commons Attribution 4.0 International License](https://github.com/luuleitner/deepMTJ/blob/master/license_dataset).
 [![CC BY 4.0](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
 
 ### 3. PREDICT muscle tendon junctions in your own video data with our trained networks
