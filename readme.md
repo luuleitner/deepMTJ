@@ -25,12 +25,16 @@ This repository contains the full python source code of `deepMTJ` including:
 
 - a google colab notebook to make inferences online
 - input/output utilities to load data and save predictions
-- model backbone and trained model weights to PREDICT, TRANSFER and LEARN
-- a diverse test dataset containing 1344 ultrasound images of muscle tendon junctions to benchmark future models
+- the model backbone and trained model weights to **PREDICT**, **TRANSFER** and **LEARN**
+- a diverse test dataset annotated by 4 specialists (2-10y experience) and containing 1344 ultrasound images of muscle tendon junctions to benchmark future models
 - a labeling tool to annotate ultrasound images (discontinued after v1.2)
 
 ## Predict muscle tendon junctions
-For online predictions visit [deepmtj.org](https://deepmtj.org/) (running in beta with 200MB datasize limit) or [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luuleitner/deepMTJ/blob/master/mtj_tracking/predict/mtj_tracking.ipynb) (for multiple and large file predictions)
+- For multiple and large file predictions [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luuleitner/deepMTJ/blob/master/mtj_tracking/predict/mtj_tracking.ipynb)
+
+- Cloud based predictions are accessible via [deepmtj.org](https://deepmtj.org/). These services run in beta and have a datasize limitation of 200 MB.
+
+- Or use the python code to predict MTJs. Have a look at the [nitty-gritty guide](#nittygritty) to the repository. 
 
 
 ## <a name="citation_1"></a> Publications
@@ -85,7 +89,7 @@ The provided dataset and models are licensed under a [Creative Commons Attributi
 ### Add-on's
 - `data` folder with additional result plots and figures in high resolution.
 
-## Getting started with the code
+## <a name="nittygritty"></a> Getting started with the code
 
 This is one possible way to run `#deepMTJ` source code on your computer. 
 
