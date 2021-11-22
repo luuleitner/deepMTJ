@@ -23,9 +23,9 @@
 ## Introduction
 This repository contains the full python source code of `deepMTJ` including:
 
+- a [![google colab notebook](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luuleitner/deepMTJ/blob/master/mtj_tracking/predict/mtj_tracking.ipynb) to make inferences online
 - input/output utilities to load data and save predictions
 - model backbone and download link to trained model weights to PREDICT, TRANSFER and LEARN
-- a google colab notebook to make inferences online
 - a labeling tool to annotate ultrasound images (discontinued after v1.2)
 
 ## Publications
@@ -59,15 +59,15 @@ The `#deepMTJ` repository contains:
 ### 2. TRAIN your own network with our backbones
 `mtj_tracking/train` folder contains the network training and evaluation: start `train.py` for `VGG-Attention-3` model and `train_resnet.py` for the `ResNet50` model.
 
+#### Trained networks
+Trained networks (540 MB) can be downloaded from: [deepmtj.org](https://storage.googleapis.com/deepmtj/IEEEtbme_model_2021/2021_Unet_deepmtj_ieeetbme_model.tf). The provided datasets (`2021_Unet_deepmtj_ieeetbme_model.tf`) are licensed under a [Creative Commons Attribution 4.0 International License](https://github.com/luuleitner/deepMTJ/blob/master/LICENSE_Datasets).
+
+[![CC BY 4.0](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
+
 ### 3. PREDICT muscle tendon junctions in your own video data with our trained networks
 The `mtj_tracking/predict` folder contains an easy to use prediction implemented in [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luuleitner/deepMTJ/blob/master/mtj_tracking/predict/mtj_tracking.ipynb)
 
 This script reads your provided AVI-Video Files and returns the annotated frames (downscaled AVI-videos) as well as the X,Y-coordinates of the muscle tendon junction (csv-File). 
-
-#### Trained networks
-Trained networks (540 MB) can be downloaded from: [deepmtj.org](https://drive.google.com/file/d/11aTDxaINoAnsefEURpZQ1aZzhz6ikS5Z/view?usp=sharing). The provided datasets (`ResNet-50.hdf5`, `VGG-16.hdf5`, `VGG-Attention-2.hdf5`, `VGG-Attention-3.hdf5`) are licensed under a [Creative Commons Attribution 4.0 International License](https://github.com/luuleitner/deepMTJ/blob/master/LICENSE_Datasets).
-
-[![CC BY 4.0](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
 
 ### Add-On's
 - `examples` folder with all result plots and figures of the IEEE-EMBC 2020 publication in high resolution.
