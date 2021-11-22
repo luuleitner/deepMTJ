@@ -23,11 +23,12 @@
 ## Introduction
 This repository contains the full python source code of `deepMTJ` including:
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luuleitner/deepMTJ/blob/master/mtj_tracking/predict/mtj_tracking.ipynb)
 - a google colab notebook to make inferences online
 - input/output utilities to load data and save predictions
 - model backbone and download link to trained model weights to PREDICT, TRANSFER and LEARN
 - a labeling tool to annotate ultrasound images (discontinued after v1.2)
+
+For online predictions go to [deepmtj.org](https://deepmtj.org/) or [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luuleitner/deepMTJ/blob/master/mtj_tracking/predict/mtj_tracking.ipynb): 
 
 ## Publications
 ```
@@ -52,7 +53,7 @@ This repository contains the full python source code of `deepMTJ` including:
 
 ## Repository Structure
 
-The `#deepMTJ` repository contains:
+The `deepMTJ` repository contains:
 
 ### 1. ANNOTATE your video data
 `mtj_tracking/label` folder contains the video annotation tool: start `main.py`
@@ -66,12 +67,12 @@ Trained networks (375 MB) can be downloaded from: [google gcp](https://storage.g
 [![CC BY 4.0](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
 
 ### 3. PREDICT muscle tendon junctions in your own video data with our trained networks
-The `mtj_tracking/predict` folder contains an easy to use prediction implemented in [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luuleitner/deepMTJ/blob/master/mtj_tracking/predict/mtj_tracking.ipynb)
+For multiple and large file predictions: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luuleitner/deepMTJ/blob/master/mtj_tracking/predict/mtj_tracking.ipynb)
 
-This script reads your provided AVI-Video Files and returns the annotated frames (downscaled AVI-videos) as well as the X,Y-coordinates of the muscle tendon junction (csv-File). 
+Cloud based prediction services accessible via [deepmtj.org](https://deepmtj.org/) (running in beta with 200MB datasize limit)
 
 ### Add-on's
-- `examples` folder with all result plots and figures of publications in high resolution.
+- `data` folder with additional result plots and figures in high resolution.
 
 # Getting started with the code
 
