@@ -24,12 +24,9 @@
 This repository contains the full python source code of `deepMTJ` including:
 
 - input/output utilities to load data and save predictions
-- model backbone and download link to trained model weights to 
-   - PREDICT - MTJ using our network
-   - TRANSFER - to use our model for transfer learning or 
-   - LEARN - to train a new model from sratch
+- model backbone and download link to trained model weights to PREDICT, TRANSFER and LEARN
 - a google colab notebook to make inferences online
-- a labeling tool to annotate ultrasound images (discontinued)
+- a labeling tool to annotate ultrasound images (discontinued after v1.2)
 
 ## Publications
 ```
@@ -63,7 +60,7 @@ The `#deepMTJ` repository contains:
 `mtj_tracking/train` folder contains the network training and evaluation: start `train.py` for `VGG-Attention-3` model and `train_resnet.py` for the `ResNet50` model.
 
 ### 3. PREDICT muscle tendon junctions in your own video data with our trained networks
-The `mtj_tracking/predict` folder contains an easy to use prediction script (minimal Python knowledge needed to get it running). G to `main.py`, add your data paths and start your predictions...
+The `mtj_tracking/predict` folder contains an easy to use prediction implemented in [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luuleitner/deepMTJ/blob/master/mtj_tracking/predict/mtj_tracking.ipynb)
 
 This script reads your provided AVI-Video Files and returns the annotated frames (downscaled AVI-videos) as well as the X,Y-coordinates of the muscle tendon junction (csv-File). 
 
