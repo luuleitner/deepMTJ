@@ -62,7 +62,7 @@ For online predictions visit [deepmtj.org](https://deepmtj.org/) (running in bet
 ## Repository Structure and Data
 
 ### 1. ANNOTATE your video data
-`mtj_tracking/label` folder contains the video annotation tool (discontinued after v1.2). We have used the online labeling tool [Labelbox](https://labelbox.com/) in our recent publication (Leitner *et al.* 2021).
+`mtj_tracking/label` folder contains the video annotation tool (discontinued after v1.2). We have used the online labeling tool [Labelbox](https://labelbox.com/) in our recent publication [Leitner *et al.* 2021a](#citation_1).
 
 ### 2. TRAIN your network with our backbones or TRANSFER our trained network to your application
 `mtj_tracking/train` folder contains the model backbone, the network training and evaluation
