@@ -31,15 +31,6 @@ This repository contains the full python source code of `deepMTJ` including:
 - a google colab notebook to make inferences online
 - a labeling tool to annotate ultrasound images (discontinued)
 
-## Repository structure
-
-`data`
-`mtj_tracking/data`
-`mtj_tracking/label`
-`mtj_tracking/predict`
-`mtj_tracking/train`
-
-
 ## Publications
 ```
 @article{deepmtj2021,
@@ -61,7 +52,7 @@ This repository contains the full python source code of `deepMTJ` including:
 }
 ```
 
-# Repository Structure
+## Repository Structure
 
 The `#deepMTJ` repository contains:
 
