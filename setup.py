@@ -1,8 +1,10 @@
 """
 	#deepMTJ
 	an open-source software tool made for biomechanical researchers
+	
 	Copyright (C) 2021 by the authors: Jarolim Robert (University of Graz), <robert.jarolim@uni-graz.at> and
 	Leitner Christoph (Graz University of Technology), <christoph.leitner@tugraz.at>.
+	
 	This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
     the Free Software Foundation, either version 3 of the License, or
