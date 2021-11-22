@@ -1,20 +1,19 @@
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luuleitner/deepMTJ/blob/master/mtj_tracking/predict/mtj_tracking.ipynb)
 ![GitHub release (release name instead of tag name)](https://img.shields.io/github/v/release/luuleitner/deepMTJ?include_prereleases)
-![Hex.pm](https://img.shields.io/hexpm/l/apa)
+[![License: GPLv3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses)
 [![GitHub contributors](https://img.shields.io/badge/Contributions-Welcome-brightgreen)](https://github.com/luuleitner/deepMTJ)
 <br>
 [![GitHub stars](https://img.shields.io/github/stars/luuleitner/deepMTJ?label=Stars&style=social)](https://github.com/luuleitner/deepMTJ)
 [![GitHub forks](https://img.shields.io/github/forks/luuleitner/deepMTJ?label=Fork&style=social)](https://github.com/luuleitner/deepMTJ)
 [![Twitter Follow](https://img.shields.io/twitter/follow/luuleitner?label=Follow&style=social)](https://twitter.com/luuleitner)
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luuleitner/deepMTJ/blob/master/mtj_tracking/predict/mtj_tracking.ipynb)
-
 
 <p align="center">
 <img src="https://github.com/luuleitner/deepMTJ/blob/master/Examples/deepMTJprediction_small.gif" height="220">
 </p>
 
-## #deepMTJ 
-### Automatic muscle tendon junction tracking using deep learning
+## deepMTJ 
+### Machine-Learning Approach for Muscle-Tendon Junction Tracking in Ultrasound Images
 
 `#deepMTJ` is a tool based on deep learning for automatic tracking of the muscle tendon junction (MTJ) in ultrasound images. We built `#deepMTJ` to support clinical biomechanists and locomotion researchers with an open-source tool for gait analysis.
 
@@ -24,16 +23,23 @@
 
 We employ convolutional neural networks with an attention mechanism. The provided networks were trained on a large (training 6400 frames/validation 1600 frames/test 1147 frames) and diverse dataset of healthy and impaired subjects performing full range of motion and maximum contractions.
 
-This repository provides the complete `#deepMTJ` Python source code for annotation, training and prediction. With `#deepMTJ` you can: 
+This repository provides the complete `deepMTJ` python source code for annotation, training and prediction. With `#deepMTJ` you can: 
 - train your own networks from scratch 
 - use our trained networks to track the muscle tendon junction in your ultrasound video files
 - employ our trained networks for transfer learning tasks
-- or contribute to the `#deepMTJ` open-source initiative (get in touch via GitHub or [E-mail](mailto:christoph.leitner@tugraz.at?subject=[GitHub]#deepMTJ))
 
 
-***"do, ut des" (lat.) ...if we could assist you with this code please cite our work:***
+### Publications
 ```
-@inproceedings{LeitnerJarolim2020,
+@article{deepmtj2021,
+   title={A Human-Centered Machine-Learning Approach for Muscle-Tendon Junction Tracking in Ultrasound Images},
+   author={Christoph Leitner and Robert Jarolim and Bernhard Englmair and Annika Kruse and Karen Andrea Lara Hernandez and Andreas Konrad and Eric Su and Jörg Schröttner and        Luke A. Kelly and Glen A. Lichtwark and  and Markus Tilp and Christian Baumgartner},
+   booktitle={IEEE Transactions on Biomedical Engineering},
+   publisher={IEEE},
+   year={2021}  
+}
+
+@inproceedings{deepmtj2020,
    title={Automatic Tracking of the Muscle Tendon Junction in Healthy and Impaired Subjects using Deep Learning},
    author={Christoph Leitner and Robert Jarolim and Andreas Konrad and Annika Kruse and Markus Tilp and Christian Baumgartner},
    booktitle={in Proc. 42nd Conferences of the IEEE Engineering in Medicine and Biology Society},
