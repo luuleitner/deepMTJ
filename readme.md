@@ -31,7 +31,7 @@ This repository provides the complete `deepMTJ` python source code for annotatio
 
 ### Publications
 ```
-@article{LeitnerJarolim2021,
+@article{deepmtj2021,
    title={A Human-Centered Machine-Learning Approach for Muscle-Tendon Junction Tracking in Ultrasound Images},
    author={Christoph Leitner and Robert Jarolim and Bernhard Englmair and Annika Kruse and Karen Andrea Lara Hernandez and Andreas Konrad and Eric Su and Jörg Schröttner and        Luke A. Kelly and Glen A. Lichtwark and  and Markus Tilp and Christian Baumgartner},
    booktitle={IEEE Transactions on Biomedical Engineering},
@@ -39,7 +39,7 @@ This repository provides the complete `deepMTJ` python source code for annotatio
    year={2021}  
 }
 
-@inproceedings{LeitnerJarolim2020,
+@inproceedings{deepmtj2020,
    title={Automatic Tracking of the Muscle Tendon Junction in Healthy and Impaired Subjects using Deep Learning},
    author={Christoph Leitner and Robert Jarolim and Andreas Konrad and Annika Kruse and Markus Tilp and Christian Baumgartner},
    booktitle={in Proc. 42nd Conferences of the IEEE Engineering in Medicine and Biology Society},
