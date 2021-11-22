@@ -4,7 +4,7 @@ import os
 import numpy as np
 from keras import backend as K
 from keras.metrics import BinaryAccuracy, Recall
-from keras.optimizers import SGD
+from tensorflow.keras.optimizers import SGD
 
 ###################################################################
 ## Loss Functions
