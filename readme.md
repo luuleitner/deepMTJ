@@ -30,7 +30,7 @@ This repository contains the full python source code of `deepMTJ` including:
 - a labeling tool to annotate ultrasound images (discontinued after v1.2)
 
 ## Predict muscle tendon junctions
-For online predictions visit [deepmtj.org](https://deepmtj.org/) (running in beta with 200MB datasize limit) or [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luuleitner/deepMTJ/blob/master/mtj_tracking/predict/mtj_tracking.ipynb) (for multiple and large file predictions)
+For online predictions visit [deepmtj.org](https://deepmtj.org/){:target="_blank"} (running in beta with 200MB datasize limit) or [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luuleitner/deepMTJ/blob/master/mtj_tracking/predict/mtj_tracking.ipynb) (for multiple and large file predictions)
 
 
 ## <a name="citation_1"></a> Publications
