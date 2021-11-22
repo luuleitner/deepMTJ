@@ -56,8 +56,6 @@ For online predictions visit [deepmtj.org](https://deepmtj.org/) (running in bet
 
 ## Repository Structure and Data
 
-The `deepMTJ` repository contains:
-
 ### 1. ANNOTATE your video data
 `mtj_tracking/label` folder contains the video annotation tool (discontinued after v1.2). We have used the online labeling tool [Labelbox](https://labelbox.com/) in our recent publication.
 
