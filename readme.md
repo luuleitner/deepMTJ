@@ -8,14 +8,12 @@
 [![Twitter Follow](https://img.shields.io/twitter/follow/luuleitner?label=Follow&style=social)](https://twitter.com/luuleitner)
 
 
-
-
 <p align="center">
 <img src="https://github.com/luuleitner/deepMTJ/blob/master/Examples/deepMTJprediction_small.gif" height="220">
 </p>
 
-## #deepMTJ 
-### Automatic muscle tendon junction tracking using deep learning
+## deepMTJ 
+### Machine-Learning Approach for Muscle-Tendon Junction Tracking in Ultrasound Images
 
 `#deepMTJ` is a tool based on deep learning for automatic tracking of the muscle tendon junction (MTJ) in ultrasound images. We built `#deepMTJ` to support clinical biomechanists and locomotion researchers with an open-source tool for gait analysis.
 
@@ -25,15 +23,22 @@
 
 We employ convolutional neural networks with an attention mechanism. The provided networks were trained on a large (training 6400 frames/validation 1600 frames/test 1147 frames) and diverse dataset of healthy and impaired subjects performing full range of motion and maximum contractions.
 
-This repository provides the complete `#deepMTJ` Python source code for annotation, training and prediction. With `#deepMTJ` you can: 
+This repository provides the complete `deepMTJ` python source code for annotation, training and prediction. With `#deepMTJ` you can: 
 - train your own networks from scratch 
 - use our trained networks to track the muscle tendon junction in your ultrasound video files
 - employ our trained networks for transfer learning tasks
-- or contribute to the `#deepMTJ` open-source initiative (get in touch via GitHub or [E-mail](mailto:christoph.leitner@tugraz.at?subject=[GitHub]#deepMTJ))
 
 
-***"do, ut des" (lat.) ...if we could assist you with this code please cite our work:***
+### Publications
 ```
+@article{LeitnerJarolim2021,
+   title={A Human-Centered Machine-Learning Approach for Muscle-Tendon Junction Tracking in Ultrasound Images},
+   author={Christoph Leitner and Robert Jarolim and Bernhard Englmair and Annika Kruse and Karen Andrea Lara Hernandez and Andreas Konrad and Eric Su and Jörg Schröttner and        Luke A. Kelly and Glen A. Lichtwark and  and Markus Tilp and Christian Baumgartner},
+   booktitle={IEEE Transactions on Biomedical Engineering},
+   publisher={IEEE},
+   year={2021}  
+}
+
 @inproceedings{LeitnerJarolim2020,
    title={Automatic Tracking of the Muscle Tendon Junction in Healthy and Impaired Subjects using Deep Learning},
    author={Christoph Leitner and Robert Jarolim and Andreas Konrad and Annika Kruse and Markus Tilp and Christian Baumgartner},
