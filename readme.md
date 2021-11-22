@@ -65,7 +65,7 @@ The `deepMTJ` repository contains:
 `mtj_tracking/train` folder contains the model backbone, the network training and evaluation
 
 #### Trained networks
-Trained networks (375 MB) can be downloaded from our [google cloud storage](https://storage.googleapis.com/deepmtj/IEEEtbme_model_2021/2021_Unet_deepmtj_ieeetbme_model.tf). The provided dataset (`2021_Unet_deepmtj_ieeetbme_model.tf`) are licensed under a [Creative Commons Attribution 4.0 International License](https://github.com/luuleitner/deepMTJ/blob/master/license_dataset).
+Trained networks (375 MB) can be downloaded from our [google cloud storage](https://storage.googleapis.com/deepmtj/IEEEtbme_model_2021/2021_Unet_deepmtj_ieeetbme_model.tf). The provided dataset (`2021_Unet_deepmtj_ieeetbme_model.tf`) is licensed under a [Creative Commons Attribution 4.0 International License](https://github.com/luuleitner/deepMTJ/blob/master/license_dataset).
 
 [![CC BY 4.0](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
 
