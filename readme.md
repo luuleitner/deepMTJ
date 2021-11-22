@@ -26,7 +26,7 @@ This repository contains the full python source code of `deepMTJ` including:
 - a google colab notebook to make inferences online
 - input/output utilities to load data and save predictions
 - model backbone and trained model weights to PREDICT, TRANSFER and LEARN
-- a test dataset containing 1344 ultrasound images of muscle tendon junctions to benchmark future models
+- a diverse test dataset containing 1344 ultrasound images of muscle tendon junctions to benchmark future models
 - a labeling tool to annotate ultrasound images (discontinued after v1.2)
 
 ## Predict muscle tendon junctions
