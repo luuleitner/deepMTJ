@@ -23,7 +23,7 @@
 ## Introduction
 This repository contains the full python source code of `deepMTJ` including:
 
-- a [![google colab notebook](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luuleitner/deepMTJ/blob/master/mtj_tracking/predict/mtj_tracking.ipynb) to make inferences online
+- a google colab notebook to make inferences online: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/luuleitner/deepMTJ/blob/master/mtj_tracking/predict/mtj_tracking.ipynb)
 - input/output utilities to load data and save predictions
 - model backbone and download link to trained model weights to PREDICT, TRANSFER and LEARN
 - a labeling tool to annotate ultrasound images (discontinued after v1.2)
