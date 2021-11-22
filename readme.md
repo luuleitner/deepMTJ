@@ -14,21 +14,33 @@
 
 # deepMTJ: Muscle-Tendon Junction Tracking in Ultrasound Images
 
-`#deepMTJ` is a machine learning approach for automatic tracking of muscle tendon junctions (MTJ) in ultrasound images. Our approach is based on a convolutional neural network trained to infer MTJ positions across a variety of ultrasound systems from different vendors, collected in independent laboratories from diverse observers, on distinct muscles and movements. We built `#deepMTJ` to support clinical biomechanists and locomotion researchers with an open-source tool for gait analysis.
+`deepMTJ` is a machine learning approach for automatic tracking of muscle tendon junctions (MTJ) in ultrasound images. Our approach is based on a convolutional neural network trained to infer MTJ positions across a variety of ultrasound systems from different vendors, collected in independent laboratories from diverse observers, on distinct muscles and movements. We built `deepMTJ` to support clinical biomechanists and locomotion researchers with an open-source tool for gait analysis.
 
 <p align="center">
 <img src="https://github.com/luuleitner/deepMTJ/blob/master/data/v2.0_ieee_tbme_2021/3dvolume.jpg" width="40%">
 </p>
 
-We employ convolutional neural networks with an attention mechanism. The provided networks were trained on a large (training 6400 frames/validation 1600 frames/test 1147 frames) and diverse dataset of healthy and impaired subjects performing full range of motion and maximum contractions.
+## Introduction
+This repository contains the full python source code of `deepMTJ` including:
 
-This repository provides the complete `deepMTJ` python source code for annotation, training and prediction. With `#deepMTJ` you can: 
-- train your own networks from scratch 
-- use our trained networks to track the muscle tendon junction in your ultrasound video files
-- employ our trained networks for transfer learning tasks
+- input/output utilities to load data and save predictions
+- model backbone and download link to trained model weights to 
+   - PREDICT - MTJ using our network
+   - TRANSFER - to use our model for transfer learning or 
+   - LEARN - to train a new model from sratch
+- a google colab notebook to make inferences online
+- a labeling tool to annotate ultrasound images (discontinued)
+
+## Repository structure
+
+`data`
+`mtj_tracking/data`
+`mtj_tracking/label`
+`mtj_tracking/predict`
+`mtj_tracking/train`
 
 
-### Publications
+## Publications
 ```
 @article{deepmtj2021,
    title={A Human-Centered Machine-Learning Approach for Muscle-Tendon Junction Tracking in Ultrasound Images},
