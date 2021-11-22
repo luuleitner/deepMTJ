@@ -59,13 +59,13 @@ For online predictions visit [deepmtj.org](https://deepmtj.org/) (running in bet
 The `deepMTJ` repository contains:
 
 ### 1. ANNOTATE your video data
-`mtj_tracking/label` folder contains the video annotation tool: start `main.py`
+`mtj_tracking/label` folder contains the video annotation tool (discontinued after v1.2). We have used the online labeling tool [Labelbox](https://labelbox.com/) in our recent publication.
 
 ### 2. TRAIN your network with our backbones or TRANSFER our trained network to your application
 `mtj_tracking/train` folder contains the model backbone, the network training and evaluation
 
 #### Trained networks
-Trained networks (375 MB) can be downloaded from: [google](https://storage.googleapis.com/deepmtj/IEEEtbme_model_2021/2021_Unet_deepmtj_ieeetbme_model.tf). The provided datasets (`2021_Unet_deepmtj_ieeetbme_model.tf`) are licensed under a [Creative Commons Attribution 4.0 International License](https://github.com/luuleitner/deepMTJ/blob/master/LICENSE_Datasets).
+Trained networks (375 MB) can be downloaded from our [google storage](https://storage.googleapis.com/deepmtj/IEEEtbme_model_2021/2021_Unet_deepmtj_ieeetbme_model.tf). The provided dataset (`2021_Unet_deepmtj_ieeetbme_model.tf`) are licensed under a [Creative Commons Attribution 4.0 International License](https://github.com/luuleitner/deepMTJ/blob/master/license_dataset).
 
 [![CC BY 4.0](https://i.creativecommons.org/l/by/4.0/88x31.png)](http://creativecommons.org/licenses/by/4.0/)
 
