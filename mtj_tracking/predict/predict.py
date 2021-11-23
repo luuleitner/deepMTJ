@@ -50,7 +50,7 @@ def track_videos(files, frame, frame_coordinates=True):
     model_path = os.path.join(str(Path.home()), '.deepMTJ', 'version1_0.tf')
     if not os.path.exists(model_path):
         os.makedirs(os.path.join(str(Path.home()), '.deepMTJ'), exist_ok=True)
-        urlretrieve('https://storage.googleapis.com/deepmtj/IEEEtbme_model_2021/20210408_Unet_trainv7_ETeAix_model.tf', model_path, )
+        urlretrieve('https://storage.googleapis.com/deepmtj/IEEEtbme_model_2021/2021_Unet_deepmtj_ieeetbme_model.tf', model_path, )
 
     model, _ = att_unet(128, 256, 1, 1)
     model.load_weights(model_path)
