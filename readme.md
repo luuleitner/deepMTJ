@@ -42,7 +42,8 @@ This repository contains the full python source code of `deepMTJ` including:
 [1] @article{deepmtj2021a,
       title={A Human-Centered Machine-Learning Approach for Muscle-Tendon Junction Tracking in Ultrasound Images},
       year={2021}  
-      author={Christoph Leitner and Robert Jarolim and Bernhard Englmair and Annika Kruse and Karen Andrea Lara Hernandez and Andreas Konrad and Eric Su and Jörg Schröttner and       Luke A. Kelly and Glen A. Lichtwark and  and Markus Tilp and Christian Baumgartner},
+      author={Leitner, Christoph and Jarolim, Robert and Englmair, Bernhard and Kruse, Annika and Hernandez, Karen Andrea Lara and Konrad, Andreas and Su, Eric and Schröttner,
+      Jörg and Kelly, Luke A. and Lichtwark, Glen A. and Tilp, Markus and Baumgartner, Christian},
       journal = {IEEE Transactions on Biomedical Engineering},
       publisher={IEEE},
       doi={10.1109/TBME.2021.3130548}
@@ -50,6 +51,9 @@ This repository contains the full python source code of `deepMTJ` including:
 
 [2] @misc{deepmtj2021b,
       title = {{deepMTJ test-set data}},
+      year={2021},  
+      author={Leitner, Christoph and Jarolim, Robert and Englmair, Bernhard and Kruse, Annika and Hernandez, Karen Andrea Lara and Konrad, Andreas and Su, Eric and Schröttner, 
+      Jörg and Kelly, Luke A. and Lichtwark, Glen A. and Tilp, Markus and Baumgartner, Christian},
       doi = {10.6084/m9.figshare.16822978.v2}
     }
  
