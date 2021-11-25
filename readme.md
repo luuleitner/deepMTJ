@@ -14,7 +14,7 @@
 
 # deepMTJ: Muscle-Tendon Junction Tracking in Ultrasound Images
 
-`deepMTJ` is a machine learning approach for automatic tracking of muscle tendon junctions (MTJ) in ultrasound images. Our approach is based on a convolutional neural network trained to infer MTJ positions across a variety of ultrasound systems from different vendors, collected in independent laboratories from diverse observers, on distinct muscles and movements. We built `deepMTJ` to support clinical biomechanists and locomotion researchers with an open-source tool for gait analyses.
+`deepMTJ` is a machine learning approach for automatically tracking of muscle-tendon junctions (MTJ) in ultrasound images. Our method is based on a convolutional neural network trained to infer MTJ positions across various ultrasound systems from different vendors, collected in independent laboratories from diverse observers, on distinct muscles and movements. We built `deepMTJ` to support clinical biomechanists and locomotion researchers with an open-source tool for gait analyses.
 
 <p align="center">
 <img src="https://github.com/luuleitner/deepMTJ/blob/master/data/v2.0_ieee_tbme_2021/3dvolume.jpg" width="40%">
@@ -45,6 +45,7 @@ This repository contains the full python source code of `deepMTJ` including:
       author={Christoph Leitner and Robert Jarolim and Bernhard Englmair and Annika Kruse and Karen Andrea Lara Hernandez and Andreas Konrad and Eric Su and Jörg Schröttner and       Luke A. Kelly and Glen A. Lichtwark and  and Markus Tilp and Christian Baumgartner},
       journal = {IEEE Transactions on Biomedical Engineering},
       publisher={IEEE},
+      doi={10.1109/TBME.2021.3130548}
     }
 
 [2] @misc{deepmtj2021b,
@@ -56,7 +57,7 @@ This repository contains the full python source code of `deepMTJ` including:
       title={Automatic Tracking of the Muscle Tendon Junction in Healthy and Impaired Subjects using Deep Learning*},   
       year={2020},  
       author={Leitner, Christoph and Jarolim, Robert and Konrad, Andreas and Kruse, Annika and Tilp, Markus and Schröttner, Jörg and Baumgartner, Christian},  
-      booktitle={2020 42nd Annual International Conference of the IEEE Engineering in Medicine   Biology Society (EMBC)},   
+      booktitle={2020 42nd Annual International Conference of the IEEE Engineering in Medicine Biology Society (EMBC)},   
       publisher={IEEE},
       pages={4770-4774},  
       doi={10.1109/EMBC44109.2020.9176145}
