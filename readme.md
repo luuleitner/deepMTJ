@@ -7,7 +7,6 @@
 [![Twitter Follow](https://img.shields.io/twitter/follow/luuleitner?label=Follow&style=social)](https://twitter.com/luuleitner)
 <br>
 [![GitHub contributors](https://img.shields.io/badge/Contributions-Welcome-brightgreen)](https://github.com/luuleitner/deepMTJ)
-<br>
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/a-human-centered-machine-learning-approach/muscle-tendon-junction-identification-on-2)](https://paperswithcode.com/sota/muscle-tendon-junction-identification-on-2?p=a-human-centered-machine-learning-approach)
 
 <p align="center">
