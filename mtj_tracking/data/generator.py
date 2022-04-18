@@ -57,7 +57,7 @@ class PredictionGenerator(Sequence):
     def loadVideos(self, files):
         data = []
         with Pool(24) as p:
-            for frames in tqdm(p.imap_unordered(self.convertFile, files), total=len(files), desc='Loading videos'):
+            for frames in tqdm(p.imap(self.convertFile, files), total=len(files), desc='Loading videos'):
                 data = data + frames
         return data
 
