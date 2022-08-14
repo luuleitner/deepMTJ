@@ -38,5 +38,5 @@ setup(
         'keras>=2.3.1',
         'pandas>=1.0.3',
         'tensorflow>=2.1.0',
-        'opencv=4.5.5'],
+        'opencv-python'],
 )
