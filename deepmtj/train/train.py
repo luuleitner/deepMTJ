@@ -24,8 +24,8 @@ import pickle
 import keras
 import matplotlib
 
-from mtj_tracking.data.generator import TrainGenerator
-from mtj_tracking.train.callback import ValidationCallback, PlotCallback
+from deepmtj.data.generator import TrainGenerator
+from deepmtj.train.callback import ValidationCallback, PlotCallback
 
 matplotlib.use('Agg')
 
@@ -33,7 +33,7 @@ import tensorflow as tf
 from keras.callbacks import LearningRateScheduler, TensorBoard, ModelCheckpoint
 from keras.optimizers import Adam
 
-from mtj_tracking.train.model import AttentionUNet, model_loss, model_accuracy, model_recall, class_loss
+from deepmtj.train.model import AttentionUNet, model_loss, model_accuracy, model_recall, class_loss
 
 import numpy as np
 import os

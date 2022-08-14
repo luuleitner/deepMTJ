@@ -29,7 +29,7 @@ from skimage.transform import resize
 from sklearn.utils import shuffle
 from tqdm import tqdm
 
-from mtj_tracking.data.loader import Frame, adjustFrame, loadVideo
+from deepmtj.data.loader import Frame, adjustFrame, loadVideo
 
 
 class PredictionGenerator(Sequence):

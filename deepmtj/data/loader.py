@@ -40,6 +40,10 @@ class Frame(Enum):
     TELEMED_2 = (140, 50, 720, 360)
     TELEMED_3 = (140, 50, 720, 360)
     AIXPLORER = (200, 261, 1000, 500)
+    TELEMED_DEEP = (88, 205, 446, 223)
+    TELEMED_DEEP_4 = (88, 177, 446, 223)
+    TELEMED_DEEP_5 = (88, 140, 446, 223)
+    TELEMED_DEEP_6 = (136, 250, 446, 223)
 
 
 class DataLoader():

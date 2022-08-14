@@ -29,7 +29,7 @@ from tensorflow.keras.optimizers import SGD
 
 ###################################################################
 ## Loss Functions
-from mtj_tracking.train.network import att_unet
+from deepmtj.train.network import att_unet
 
 
 def distance(y_true, y_pred):

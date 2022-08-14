@@ -2,10 +2,7 @@
 	#deepMTJ
 	an open-source software tool made for biomechanical researchers
 
-	Copyright (C) 2021 by the authors: Jarolim Robert (University of Graz), <robert.jarolim@uni-graz.at> and
-	Leitner Christoph (Graz University of Technology), <christoph.leitner@tugraz.at>.
-
-    This program is free software: you can redistribute it and/or modify
+	This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
     the Free Software Foundation, either version 3 of the License, or
     (at your option) any later version.
@@ -17,6 +14,8 @@
 
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+    Author: Leitner Christoph <christoph.leitner@tugraz.at>
 """
 
 import numpy as np
@@ -25,20 +24,20 @@ from scipy.stats import zscore
 
 
 def pre_filter(signal, n_sigmas=2):
-    s = signal.values
+    s = signal
     z_scores = zscore(s, axis=0)
     abs_z_scores = np.abs(z_scores)
     filtered_entries = (abs_z_scores < n_sigmas)
     s[~filtered_entries[:, 0]] = np.nan
     s = pd.DataFrame(s,columns=['x','y'])
-    s = s.interpolate(method='linear', axis=0, limit=20).ffill().bfill()
+    s = s.interpolate(method='linear', axis=0, limit=20).ffill().bfill().to_numpy()
     return s
 
 #
 # Hampel filter adapted from https://github.com/erykml
 #
 def hampel_filter(input_series, window_size, n_sigmas=3):
-    input_series = input_series.to_numpy()
+    input_series = input_series
     n = len(input_series)
     new_series = input_series.copy()
     k = 1.4826

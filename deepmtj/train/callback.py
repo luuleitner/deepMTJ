@@ -31,7 +31,7 @@ from matplotlib import pyplot as plt
 from matplotlib.ticker import MaxNLocator
 from skimage.transform import pyramid_expand
 
-from mtj_tracking.train.model import distance, correct
+from deepmtj.train.model import distance, correct
 
 
 class PlotCallback(Callback):

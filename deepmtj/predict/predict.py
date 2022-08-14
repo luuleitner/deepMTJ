@@ -27,9 +27,9 @@ import pandas as pd
 from scipy.ndimage import center_of_mass
 from skimage.measure import label
 
-from mtj_tracking.data.generator import PredictionGenerator
-from mtj_tracking.data.loader import Frame
-from mtj_tracking.train.network import att_unet
+from deepmtj.data.generator import PredictionGenerator
+from deepmtj.data.loader import Frame
+from deepmtj.train.network import att_unet
 
 
 def find_coordinates(prediction):
@@ -46,7 +46,7 @@ def find_coordinates(prediction):
     return x, y
 
 
-def track_videos(files, frame, frame_coordinates=True):
+def track_videos(files, frame, frame_coordinates=True, export_frames=False):
     model_path = os.path.join(str(Path.home()), '.deepMTJ', 'version1_0.tf')
     if not os.path.exists(model_path):
         os.makedirs(os.path.join(str(Path.home()), '.deepMTJ'), exist_ok=True)
@@ -59,13 +59,23 @@ def track_videos(files, frame, frame_coordinates=True):
     predictions = model.predict_generator(data_generator, verbose=1)
 
     coordinates = np.array([find_coordinates(p) for p in predictions])
-
     x, y, w, h = frame.value
-    result = {
-        'file': [f for f, idx in data_generator.info],
-        'frame_num': [idx for f, idx in data_generator.info],
-        'x': coordinates[:, 0] if frame_coordinates else coordinates[:, 0] / 256 * w + x,
-        'y': coordinates[:, 1] if frame_coordinates else coordinates[:, 1] / 128 * h + y}
+
+    if export_frames:
+        result = {
+            'file': [f for f, idx in data_generator.info],
+            'frame_num': [idx for f, idx in data_generator.info],
+            'x': coordinates[:, 0] if frame_coordinates else coordinates[:, 0] / 256 * w + x,
+            'y': coordinates[:, 1] if frame_coordinates else coordinates[:, 1] / 128 * h + y,
+            'frame': [frame for frame in data_generator.data]
+        }
+    else:
+        result = {
+            'file': [f for f, idx in data_generator.info],
+            'frame_num': [idx for f, idx in data_generator.info],
+            'x': coordinates[:, 0] if frame_coordinates else coordinates[:, 0] / 256 * w + x,
+            'y': coordinates[:, 1] if frame_coordinates else coordinates[:, 1] / 128 * h + y
+        }
 
     result_df = pd.DataFrame(result)
     return result_df
