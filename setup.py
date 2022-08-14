@@ -36,8 +36,8 @@ setup(
         'numpy>=1.18.4',
         'matplotlib>=3.1.3',
         'keras==2.3.1',
-        'keras-applications>=1.0.3'
-        'pandas>=1.0.3',
-        'tensorflow-gpu>=2.3.0,<=2.5.0',
+        'keras-applications>=1.0.3',
+        'pandas>=1.1.3',
+        'tensorflow-gpu==2.1.0',
         'opencv-python'],
 )
