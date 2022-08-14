@@ -27,6 +27,15 @@ setup(
     url='https://github.com/luuleitner/deepMTJ',
     license='GPL-3.0',
     author='Robert Jarolim, Christoph Leitner',
+    author_email='christoph.leitner@tugraz.at',
     description='Automatic tracking of the muscle tendon junction using deep learning',
-    install_requires = ['scikit-image', 'scikit-learn', 'tqdm', 'numpy', 'matplotlib', 'keras', 'pandas', 'tensorflow'],
+    install_requires = [
+        'scikit-image>=0.16.2,<=1.0.0',
+        'scikit-learn>=0.23.1',
+        'tqdm',
+        'numpy>=1.18.4',
+        'matplotlib>=3.1.3',
+        'keras>=2.3.1',
+        'pandas>=1.0.3',
+        'tensorflow>=2.1.0'],
 )
